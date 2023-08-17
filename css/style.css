@@ -1,0 +1,788 @@
+/*start framework*/
+body{
+    text-transform: capitalize;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.textcenter{
+    text-align: center;
+}
+/*end framework*/
+/*start header*/
+.header{
+    background-color: #eee;
+    overflow: hidden;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.header .logo span{
+    font-size: 35px;
+    font-weight: 700;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.header .logo{
+    float: left;
+    margin-top: 0;
+    width: 160px;
+    border-bottom: 5px solid rgb(85,181,189);
+    border-bottom-right-radius: 25px;
+}
+.header .navbar{
+    overflow: hidden;
+    float: right;
+    margin-top: 0
+}
+.header .navbar .nav{
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.header .navbar .nav li{
+    float: left;
+    padding-left: 30px;
+    color: #888;
+}
+.header .navbar .nav li a{
+     color: #888;
+    text-decoration: none;
+}
+.header .navbar .nav li a:hover{
+   cursor: pointer; 
+    color: #444;
+}
+.header .navbar ul li .search{
+    cursor: pointer;
+    font-size: 25px;
+    color:#ffa800
+}
+/*end header*/
+/*start slider*/
+.slider{
+    overflow: hidden;
+    height: 650px;
+    background-image:url(../images/slider.PNG);
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.slider h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #999;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+     margin-bottom: 10px;
+}
+.slider h2{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 85px;
+    letter-spacing: 17px;
+    margin-bottom: 10px;
+    color: #e3bd06;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-left: 30px
+}
+.slider p{
+    text-align:center;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #999;
+    font-size: 22px;
+    padding: 10px 250px
+}
+/*end  slider*/
+/*start feature*/
+.feature {
+    overflow: hidden;
+}
+.feature .feat{
+    float: left;
+    width: 25%;
+    margin-top:60px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.feature .feat .border{
+    border: 1px dashed #999;
+    border-radius: 100px;
+    padding: 9px 15px;
+    width: 125px;
+    margin: auto;
+}
+.feature .feat .border .icon{
+    border: 1px dashed #ddd;
+    border-radius: 120px;
+     padding: 38px 25px;
+    background-color: #8de7ef;
+    color: #fff;
+    opacity: 0.7
+    
+}
+#feat2{
+     background-color: #9ebe3b;
+}
+#feat3{
+     background-color: #ffa800;
+}
+#feat4{
+     background-color: #3d98ff;
+}
+.feature .feat h2{
+    letter-spacing:-2;
+    font-weight: 700;
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+    color: #777
+}
+.feature .feat hr{
+    width: 70px;
+    border: 0;
+    height: 6px;
+    background-color: #d1cdcd;
+}
+.feature .feat .border .icon:hover,
+.feature .feat .border:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.feature .feat .info{
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #3d98ff;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: .9;
+    display: none;
+    
+}
+/*end feature*/
+/*start about-us*/
+.about-us{
+    overflow: hidden;
+    background-image: url(../images/info.png);
+    background-repeat: no-repeat;
+    height: 560px
+}
+.about-us h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.about-us button{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    padding: 12px 10px;
+    border: 1px dashed #fff;
+    border-radius: 100px;
+    background: #fff;
+    color: #ffa800;
+    font-weight: 700;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+.about-us button:hover,
+.about-us .skils i:hover{
+    cursor: pointer;
+}
+.about-us button:hover{
+    background-color: #ffa800;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+.about-us .skils i:hover{
+    color: #ffa800;
+    transition: all 1s ease-in-out;
+}
+#colorActive{
+     background-color: #ffa800;
+    color: #fff;
+}
+.about-us .skils{
+    float: right;
+    width: 500px;
+    margin-right: 100px;
+    line-height: 1.6;
+    color: #fefefe;
+    font-weight: 700;
+    margin-top: 20px
+}
+
+.about-us .skils h3{
+    font-size: 13px;
+    margin-top: 20px
+}
+.about-us .skils i{
+    margin-top: 20px;
+    margin-left: 250;
+    color: #c6e6be
+}
+/*end about-us*/
+/*start our-teacher*/
+.our-teacher{
+    overflow: hidden;
+}
+.our-teacher h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #555;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.our-teacher p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #777;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    overflow:hidden; 
+    margin-bottom: 30px
+}
+.our-teacher hr{
+    width: 300px;
+    height: 3px;
+    border: 0;
+    background-color: #f0a513;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.our-teacher .teachers .teacher{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 3px dashed #ddd;
+    padding-bottom:20px;
+    margin-bottom: 40px;
+}
+.our-teacher .teachers .teacher span{
+    font-weight: 700;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #666
+}
+.our-teacher .teachers .teacher .job{
+ margin-left: 240px;
+}
+.our-teacher .teachers .teacher img{
+    width:100%;
+    height: 200px;
+    padding: 5px;
+    border:2px solid #ccc;
+    margin-top: 16px;
+}
+#teacher1{
+     border-bottom-color: #9ebe3b;
+}
+#teacher2{
+    border-bottom-color: #ffa800;
+}
+#teacher3{
+    border-bottom-color: #3d98ff;
+}
+#teacher4{
+    border-bottom-color: #e861e8;
+}
+/*end our-teacher*/
+/*start our-news*/
+.our-news{
+    background-color: #9ebe3b; 
+    padding-bottom: 50px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.our-news .news{
+     background-color: #9ebe3b;
+    overflow: hidden;
+}
+.our-news h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.our-news p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 30px
+}
+.our-news hr{
+    width: 300px;
+    height: 3px;
+    border: 0;
+    background-color: #fff;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.our-news .new{
+    margin: 10px 4%;
+    width: 40%;
+    float: left;
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.our-news .new .image{
+    float:left;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 12px
+}
+.our-news .new .image img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+}
+.our-news .new h5{
+    margin-left: 220px;
+    padding-left:20px;
+    color: #666;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 0px;font-size: 15px;
+}
+.our-news .new i{
+    margin-left: 15px;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #999;
+}
+.our-news .new p{
+    text-align:left;
+    font-size: 15px;
+    font-weight: 700;
+    color: #777;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    line-height: 1.6;
+}
+.our-news .new button{
+    float: right;
+    margin-right: 35px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    background-color: #fff;
+    color: #666;
+    font-weight: 700;
+    border: 0;
+    border-bottom: 3px dashed #e7f00f;
+}
+.our-news .new button:hover{
+    cursor: pointer;
+    color: #111
+    
+}
+/*end our-news*/
+/**start our gallary*/
+.our-gallary{
+    overflow: hidden;
+}
+.our-gallary h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #555;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.our-gallary ul{
+    padding-left: 0;
+    list-style: none;
+    overflow: hidden;
+    margin: 25px 250px;
+    margin-bottom: 50px
+}
+.our-gallary ul li{
+    float: left;
+    padding-left: 40px;
+     font-weight: 700;
+    color: #555;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.our-gallary ul li:hover{
+    cursor: pointer;
+    color: #ffa800;
+}
+.our-gallary ul .allf{
+    color: #ffa800;
+}
+.our-gallary .allimages ,.our-gallary .eventsimages,.photosimages,.programesimages,.sohegimages,.videosimages{
+    border: 3px dashed #ddd;
+    padding: 10px;
+    padding-top: 40px;
+    padding-right: 25px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+.our-gallary .allimages img ,.our-gallary .eventsimages img,.photosimages img,.programesimages img,.sohegimages img,.videosimages img{
+    float: left;
+    padding-bottom: 20px;
+    width: 30%;
+    height: 200px;
+    padding-left: 3%;
+    border-radius: 55px
+}
+/*end our gallary*/
+/*start the videos*/
+.tv{
+    background-image: url(../images/part7.png);
+    background-size: cover;
+    height: 350px;
+    overflow: hidden;
+}
+.tv .sayHello{
+    float: left;
+    width: 300px;
+    margin: auto;
+    margin-top: 105px;
+    margin-left: 365px;
+}
+.tv .sayHello strong{
+    display: block;
+    color:#fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+        padding-left: 15px;
+}
+.tv .sayHello span{
+     color:#fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 5px
+}
+.tv .view {
+    float: right;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+.tv .view img{
+    padding: 3px;
+    border: 2px dashed #fff;
+    border-radius: 25px;
+     box-shadow: 0 0 5px 5px #fff;
+   transition: all 0.8s ease-in-out;
+    
+}
+.tv .view img:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+/*end videos*/
+/*start contact-us part1*/
+.contact-us1{
+    overflow: hidden;
+    height: 470px;
+}
+.contact-us1 h1{
+    text-align: center;
+    font-size: 30px;
+    color: #555;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+}
+.contact-us1 p{
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.contact-us1 hr{
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+    height: 3px;
+    border: 0;
+    background-color: #ffa800;
+    margin-bottom: 30px;    
+}
+.contact-us1 .contact-icons{
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.contact-us1 .contact-icons .contacts h5{
+    font-size: 20px;
+    color: #555;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-us1 .contact-icons .contacts{
+    float: left;
+    margin-left: 70px;
+}
+.contact-us1 .contact-icons .contacts i{ 
+    color: #fff;
+    padding: 10px
+}
+.contact-us1 .contact-icons span{
+    color: #555;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.contact-us1 .contact-icons .bordericon{
+    padding:20px 23px;
+    border: 1px solid #ddd;
+    border-radius: 100px
+    
+}
+.contact-us1 .contact-icons .bordericon1{
+    padding:15px 20px;
+    margin-bottom: 20px;
+    border: 3px dashed #ddd;
+    border-radius: 100px
+}
+#icon1{
+     background-color: #3d98ff;
+}
+#icon2{
+     background-color: #9ebe3b;
+}
+#icon3{
+     background-color: #ffa800;
+}
+
+.contact-us1 .contact-icons img{
+    margin-left: 50px;
+    width: 350px;
+    margin-top: -78px;
+    transition: all 0.9s ease-in-out;
+    border: 1px solid #fff;
+    border-radius: 100px
+}
+.contact-us1 .contact-icons .bordericon1:hover{
+     cursor: pointer; 
+    box-shadow: 0px 0px 3px 3px #ddd;
+}
+.contact-us1 .contact-icons img:hover{
+    transform: rotateY(360deg);
+}
+/*end contact-us part1*/
+/*start contactbar*/
+.contactbar{
+    overflow: hidden;
+    background-color: #3d98ff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contactbar h1{
+    color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    letter-spacing: -2;
+    float: left;
+}
+.contactbar .messegetext{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 3px;
+    padding-right: 15px;
+    border-right: 3px solid #fff;
+}
+.contactbar .messegetext input{
+    width: 400px;
+    height: 50px;
+     border: 1px solid #3d98ff;
+    border-radius: 50px;
+    text-indent: 12px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    
+}
+.contactbar .messegetext button{
+     height: 50px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #3d98ff;
+    border-radius: 50px;
+     color: #fff;
+    background-color: #f7a405;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.contactbar .messegetext button:hover{
+    cursor: pointer;
+}
+.contactbar i,.contactbar strong{
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #fff
+}
+.contactbar strong{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 23px;
+}
+/*end contactbar*/
+/*start mcontacts*/
+.morecontacts{
+    overflow: hidden;
+}
+.morecontacts .mcontact{
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+}
+.morecontacts .mcontact .logo span{
+    font-size: 35px;
+    font-weight: 700;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.morecontacts .mcontact .logo{
+    width: 160px;
+    border-bottom: 5px solid rgb(85,181,189);
+    border-bottom-right-radius: 25px;
+    border-top: 5px solid rgb(85,181,189);
+    border-top-left-radius: 25px; margin-bottom: 20px;
+    margin-top: 30px;
+}
+.morecontacts .mcontact h3{
+   font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #555;
+}
+.morecontacts .mcontact p{
+    font-size: 15px;
+    color: #777;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.morecontacts .mcontact button{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border: 1px dashed #333;
+    color: #444;
+    background: #fff;
+    border-radius: 25px;
+    padding: 5px 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.morecontacts .mcontact button:hover{
+    cursor: pointer;
+     border: 3px solid #333;
+    box-shadow: 0 0 5px 5px #ddd;
+}
+.morecontacts .mcontact .menue{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    padding-bottom: 8px;
+    border-bottom: 3px dashed #333;
+    color: #444;
+    margin-top: 25px;
+}
+
+.morecontacts .mcontact .post img{
+    float: left;
+    width:100px;
+    height: 100px;
+    margin-right: 10px;
+     border: 1px solid #fff;
+    border-radius: 20px;
+    
+}
+.morecontacts .mcontact .post h4,.morecontacts .mcontact .post h6{
+     font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.morecontacts .mcontact .post h6{
+    margin-top: 0;
+    margin-left: 10px;
+    color: #888;
+    font-size: 15px;
+}
+.morecontacts .mcontact .post{
+    cursor: pointer;
+     border: 1px solid #dedede;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 100px;
+}
+.morecontacts .mcontact .post:hover{
+    box-shadow: 0 0 5px 5px #ddd;
+}
+/*end mcontacts*/
+/*start footer*/
+.footer{
+    overflow: hidden;
+    background-color: rgb(237, 233, 233);
+}
+.footer ul{
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 15px 390px;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    margin-bottom: 5px
+    
+}
+.footer ul li{
+    float: left;
+    padding-left: 50px;
+    color: #999;
+}
+.footer ul li:hover{
+    cursor: pointer;
+    color:#ffa800;
+}
+.footer p{
+    font-size: 12px;
+    color: #777;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.footer span{
+    font-size: 18;
+}
+/*end footer */
